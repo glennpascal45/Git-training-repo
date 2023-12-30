@@ -1,0 +1,45 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Acme Corporation
+theme: Eclectic
+author:
+  linkedin: "https://www.linkedin.com/in/glenn-mouhingou/"
+  email: "pascal.mouhingou@gmail.com"
+  name: "Acme Corporation"
+  location: New York
+  phone: (212) 708-00-50-29
+
+
+menu:
+  main:
+    - identifier: about
+      name: About 
+      url: /about
+      weight: 100
+    - identifier: my-project
+      name: "My Project"
+      url: /my-project
+      weight: 200
+    - identifier: contact
+      name: Contact
+      url: /contact
+      weight: 300
+params:
+  color: "#4f46e5"
+  copyright: "Copyright &copy; 2024 Acme Corporation. 
+              All Rights Reserved."
+  footer:
+  - title: About
+    content: >
+      Acme Corporation is the world's leading 
+      manufacturer of digital shapes. From squares and
+      circles to triangles and hexagons, we have it 
+      all. Browse through our collection of various 
+      forms with different thicknesses and line styles.
+      We shape the world. You live in it. 
+
+  - title: Recent Blog Posts
+    recents: blog
+    recentCount: 7
+  - title: Contact Us 
+    contact: true
